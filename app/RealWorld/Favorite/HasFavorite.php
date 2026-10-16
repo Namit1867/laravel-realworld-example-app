@@ -42,6 +42,16 @@ trait HasFavorite
     }
 
     /**
+     * Get the articles the user liked.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function likes()
+    {
+        return $this->belongsToMany(Article::class, 'likes', 'user_id', 'article_id');
+    }
+
+    /**
      * Check if the user has favorited the given article.
      *
      * @param Article $article
