@@ -27,6 +27,16 @@ class User extends Authenticatable implements JWTSubject
      *
      * @var array
      */
+    /**
+     * Whether the user has written a bio.
+     *
+     * @return bool
+     */
+    public function hasBio()
+    {
+        return ! empty($this->bio);
+    }
+
     protected $hidden = [
         'password', 'remember_token',
     ];
