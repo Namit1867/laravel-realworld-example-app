@@ -3,13 +3,14 @@
 namespace App;
 
 use App\RealWorld\Slug\HasSlug;
+use App\RealWorld\Likes\HasLikes;
 use App\RealWorld\Filters\Filterable;
 use App\RealWorld\Favorite\Favoritable;
 use Illuminate\Database\Eloquent\Model;
 
 class Article extends Model
 {
-    use Favoritable, Filterable, HasSlug;
+    use Favoritable, Filterable, HasSlug, HasLikes;
 
     /**
      * The attributes that are mass assignable.
