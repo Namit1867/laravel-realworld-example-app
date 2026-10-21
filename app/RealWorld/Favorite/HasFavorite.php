@@ -48,7 +48,15 @@ trait HasFavorite
      */
     public function likes()
     {
-        return $this->belongsToMany(Article::class, 'likes', 'user_id', 'article_id');
+        return $this->belongsToMany(Article::class, 'article_likes', 'user_id', 'article_id');
+    }
+
+    /**
+     * Get the articles the user bookmarked.
+     */
+    public function bookmarks()
+    {
+        return $this->hasMany(Article::class, 'bookmarked_by');
     }
 
     /**
