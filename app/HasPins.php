@@ -6,6 +6,6 @@ trait HasPins
 {
     public function pins()
     {
-        return $this->hasMany(Comment::class, "pinned_by");
+        return $this->hasMany(Comment::class, "pinner_id");
     }
 }
