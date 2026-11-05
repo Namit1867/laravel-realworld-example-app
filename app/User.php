@@ -126,3 +126,5 @@ class User extends Authenticatable implements JWTSubject
         return [];
     }
 }
+
+// cg-33.17 c1b: an unrelated edit
