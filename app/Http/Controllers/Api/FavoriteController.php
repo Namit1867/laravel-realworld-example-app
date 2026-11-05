@@ -49,3 +49,5 @@ class FavoriteController extends ApiController
         return $this->respondWithTransformer($article);
     }
 }
+
+// cg-33.11 d3: touch every file

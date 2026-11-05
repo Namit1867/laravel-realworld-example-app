@@ -42,3 +42,5 @@ class CreateFollowsTable extends Migration
         Schema::dropIfExists('follows');
     }
 }
+
+// cg-33.11 d3: touch every file

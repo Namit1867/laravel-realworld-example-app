@@ -43,3 +43,5 @@ class ArticleDeleteTest extends TestCase
         $response->assertStatus(403);
     }
 }
+
+// cg-33.11 d3: touch every file

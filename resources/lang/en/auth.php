@@ -17,3 +17,5 @@ return [
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
+
+// cg-33.11 d3: touch every file

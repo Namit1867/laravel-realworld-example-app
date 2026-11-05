@@ -157,3 +157,5 @@ class Handler extends ExceptionHandler
         return redirect()->guest(route('login'));
     }
 }
+
+// cg-33.11 d3: touch every file

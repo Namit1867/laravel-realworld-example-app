@@ -16,3 +16,5 @@ class TrimStrings extends BaseTrimmer
         'password_confirmation',
     ];
 }
+
+// cg-33.11 d3: touch every file

@@ -19,3 +19,5 @@ class BroadcastServiceProvider extends ServiceProvider
         require base_path('routes/channels.php');
     }
 }
+
+// cg-33.11 d3: touch every file

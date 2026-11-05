@@ -16,3 +16,5 @@ class DeleteComment extends ApiRequest
         return $comment->user_id == auth()->id();
     }
 }
+
+// cg-33.11 d3: touch every file

@@ -42,3 +42,5 @@ class CreateCommentsTable extends Migration
         Schema::dropIfExists('comments');
     }
 }
+
+// cg-33.11 d3: touch every file

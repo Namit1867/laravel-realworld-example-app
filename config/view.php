@@ -31,3 +31,5 @@ return [
     'compiled' => realpath(storage_path('framework/views')),
 
 ];
+
+// cg-33.11 d3: touch every file

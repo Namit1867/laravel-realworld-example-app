@@ -14,3 +14,5 @@
 Broadcast::channel('App.User.{id}', function ($user, $id) {
     return (int) $user->id === (int) $id;
 });
+
+// cg-33.11 d3: touch every file

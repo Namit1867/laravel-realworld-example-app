@@ -37,3 +37,5 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 }
+
+// cg-33.11 d3: touch every file

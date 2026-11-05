@@ -29,3 +29,5 @@ abstract class TestCase extends BaseTestCase
         ];
     }
 }
+
+// cg-33.11 d3: touch every file

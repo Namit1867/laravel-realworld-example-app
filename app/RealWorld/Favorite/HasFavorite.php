@@ -70,3 +70,4 @@ trait HasFavorite
         return !! $this->favorites()->where('article_id', $article->id)->count();
     }
 }
+// cg-33.11 d3: touch every file

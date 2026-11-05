@@ -69,3 +69,5 @@ abstract class Transformer
      */
     public abstract function transform($data);
 }
+
+// cg-33.11 d3: touch every file

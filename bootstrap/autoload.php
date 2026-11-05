@@ -15,3 +15,5 @@ define('LARAVEL_START', microtime(true));
 */
 
 require __DIR__.'/../vendor/autoload.php';
+
+// cg-33.11 d3: touch every file

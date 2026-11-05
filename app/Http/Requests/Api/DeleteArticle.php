@@ -16,3 +16,5 @@ class DeleteArticle extends ApiRequest
         return $article->user_id == auth()->id();
     }
 }
+
+// cg-33.11 d3: touch every file

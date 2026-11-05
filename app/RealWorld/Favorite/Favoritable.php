@@ -68,3 +68,4 @@ trait Favoritable
         return !! $this->favorited()->where('user_id', $user->id)->count();
     }
 }
+// cg-33.11 d3: touch every file

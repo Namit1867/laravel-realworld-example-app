@@ -132,3 +132,5 @@ class CommentTest extends TestCase
         $response->assertStatus(404);
     }
 }
+
+// cg-33.11 d3: touch every file

@@ -55,3 +55,5 @@ class AuthController extends ApiController
         return $this->respondWithTransformer($user);
     }
 }
+
+// cg-33.11 d3: touch every file

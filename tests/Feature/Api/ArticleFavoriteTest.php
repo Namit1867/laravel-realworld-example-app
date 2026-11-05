@@ -108,3 +108,5 @@ class ArticleFavoriteTest extends TestCase
         $response->assertStatus(401);
     }
 }
+
+// cg-33.11 d3: touch every file
