@@ -116,4 +116,9 @@ class Article extends Model
     {
         return ['feed'];
     }
+
+    public function readingMinutes(): int
+    {
+        return max(1, (int) ceil(str_word_count($this->body) / 200));
+    }
 }
