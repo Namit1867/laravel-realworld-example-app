@@ -35,6 +35,7 @@ class ArticleController extends ApiController
     public function index(ArticleFilter $filter)
     {
         $articles = new Paginate(Article::loadRelations()->filter($filter));
+        // helix-cg3314: list articles newest first (index only).
 
         return $this->respondWithPagination($articles);
     }
